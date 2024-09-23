@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-  changeApproval:
+  ServiceNowDevOpsChange:
       name: 'ServiceNow DevOps Change'
       needs: build  # Ensure this job waits for the 'build' job to complete
       runs-on: ubuntu-latest
